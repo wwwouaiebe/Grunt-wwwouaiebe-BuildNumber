@@ -46,7 +46,7 @@ module.exports = function ( grunt ) {
 								if ( null !== data [ value.name ] ) {
 									if ( 'read' === this.data.action ) {
 										if ( value.transform ) {
-											grunt.config.set ( value.name, value.transform( data [ value.name ], grunt ) );
+											grunt.config.set ( value.name, value.transform( data [ value.name ] ) );
 										}
 										else {
 											grunt.config.set ( value.name, data [ value.name ] );
@@ -54,7 +54,7 @@ module.exports = function ( grunt ) {
 									}
 									else {
 										if ( value.transform ) {
-											data [ value.name ] = value.transform ( data [ value.name ], grunt );
+											data [ value.name ] = value.transform ( data [ value.name ] );
 										}
 									}
 								}
