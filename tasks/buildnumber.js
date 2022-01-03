@@ -62,7 +62,7 @@ module.exports = function ( grunt ) {
 						}
 					)
 					if ( 'write' === this.data.action ) {
-						grunt.file.write ( file, JSON.stringify ( data ) );
+						grunt.file.write ( file, JSON.stringify ( data, null, 2 ) );
 					}
 					break;
 				default :
