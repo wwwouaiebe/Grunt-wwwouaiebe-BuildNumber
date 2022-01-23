@@ -73,7 +73,7 @@ Then you add an array of objects that are the properties to read or write to the
 For each property :
 - the __name__ is the the property name to read or write in the json file. Never use __buildnumber__ for this property name, that's the task name and the property will be ignored!
 - the __initialValue__ is the value to use when the property is not found in the json file
-- __transform__ is a function used to modify the property before writing the property in the grunt.config.data ( when the action is 'read' - in the sample, the numeric property is transformed into a string and completed with 0 on the left )
+- __transform__ is an optional function used to modify the property before writing the property in the grunt.config.data ( when the action is 'read' - in the sample, the numeric property is transformed into a string and completed with 0 on the left )
 or before writing the property in the json file ( when the action is 'write' - in the sample the property is simply incremented )
 
 Notice that the properties are added in the  __grunt.config.data object__, so you can easily use the properties in grunt templates or read the properties with the __grunt.config.get__ method
