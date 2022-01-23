@@ -46,7 +46,7 @@ grunt.loadNpmTasks('grunt-buildnumber');
 
 ```
 
-And finally, register a task that load essimpledoc:
+And finally, register a task:
 
 ```
 grunt.registerTask( 'a_task', [ 'buildnumber:start' ] );
