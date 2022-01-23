@@ -1,6 +1,6 @@
 {
   "name": "grunt-buildnumber",
-  "description": "Grunt plugin - read values from a json file and set to grunt.config.data or get values from grunt.config.data and save to a json file, so values can be used with grunt",
+  "description": "Grunt plugin - read values from a json file and set to grunt.config.data or change the values in the json file, so values can be used with grunt",
    "version": "0.0.1",
   "keywords": [
     "grunt", "grunt.config.data", "json"

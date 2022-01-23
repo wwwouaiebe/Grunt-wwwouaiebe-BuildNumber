@@ -41,7 +41,7 @@ module.exports = function ( grunt ) {
 					}
 					this.data.values.forEach (
 						value => {
-							if ( value.name ) {
+							if ( value.name && value.name !== 'buildnumber' ) {
 								data [ value.name ] = data [ value.name ] || value.initialValue;
 								if ( null !== data [ value.name ] ) {
 									if ( 'read' === this.data.action ) {
