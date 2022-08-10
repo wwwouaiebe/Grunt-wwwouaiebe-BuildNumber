@@ -1,4 +1,4 @@
-# Grunt-BuildNumber
+# Grunt-wwwouaiebe-BuildNumber
 
 Yet another build number plugin for grunt...
 
@@ -42,7 +42,7 @@ grunt.initConfig ( {
 You have also to load the plugin:
 
 ```
-grunt.loadNpmTasks('grunt-buildnumber');
+grunt.loadNpmTasks('grunt-wwwouaiebe-buildnumber');
 
 ```
 
@@ -77,13 +77,3 @@ For each property :
 or before writing the property in the json file ( when the action is 'write' - in the sample the property is simply incremented )
 
 Notice that the properties are added in the  __grunt.config.data object__, so you can easily use the properties in grunt templates or read the properties with the __grunt.config.get__ method
-
-
-
-
-
-
-
-
-
-

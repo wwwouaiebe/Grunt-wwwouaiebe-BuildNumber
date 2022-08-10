@@ -67,10 +67,10 @@ module.exports = function ( grunt ) {
 					break;
 				default :
 					if ( this.data.action ) {
-						grunt.fail.warn( 'grunt-buildnumber task ' + task + ' - Invalid action ' + this.data.action );
+						grunt.fail.warn( 'grunt-wwwouaiebe-buildnumber task ' + task + ' - Invalid action ' + this.data.action );
 					}
 					else {
-						grunt.fail.warn( 'grunt-buildnumber task ' + task + ' - Action not defined' );
+						grunt.fail.warn( 'grunt-wwwouaiebe-buildnumber task ' + task + ' - Action not defined' );
 					}
 					break;
 			}
