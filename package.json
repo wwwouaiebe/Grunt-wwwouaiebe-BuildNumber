@@ -13,7 +13,7 @@
     "url": "git+https://github.com/wwwouaiebe/Grunt-wwwouaiebe-BuildNumber.git"
   },
   "engines": {
-    "node": ">=16.13.0"
+    "node": ">=18.18.2"
   },
   "author": "wwwouaiebe",
   "license": "GPL-3.0",
