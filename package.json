@@ -1,7 +1,7 @@
 {
   "name": "grunt-wwwouaiebe-buildnumber",
   "description": "Grunt plugin - read values from a json file and set to grunt.config.data or change the values in the json file, so values can be used with grunt",
-   "version": "1.0.0",
+   "version": "1.0.2",
   "keywords": [
     "grunt", "grunt.config.data", "json"
    ],
